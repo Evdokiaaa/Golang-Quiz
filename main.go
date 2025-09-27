@@ -81,7 +81,7 @@ func parseLines(lines [][]string) []problem {
 	return problems
 }
 
-//Counter - количество правильных ответов. Идет в возращаемых значениях
+//Counter - количество правильных ответов. 
 func showResults(records [][]string, timer *time.Timer)  {
 	problems := parseLines(records)
 	wrongProblems := make([]wrongProblem,len(problems))
